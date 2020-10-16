@@ -1,0 +1,30 @@
+/* background colors */
+.button, nav li a {
+  border-radius: 10px;
+  background-color: aliceblue;
+  text-align: center;
+  padding: 10px;
+  color: tomato; }
+
+.navFormat, nav {
+  color: chartreuse;
+  text-align: left;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: darksalmon; }
+
+nav {
+  background-color: #4c4838;
+  bordrer-radius: 88px; }
+  nav li {
+    display: inline-block;
+    background-color: green; }
+    nav li a {
+      color: #6325d9;
+      background-color: red;
+      text-decoration: aquamarine; }
+      nav li a:hover {
+        color: #6325d9;
+        background-color: blue; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,34 @@
+//*body{
+  //*background-color: tomato;
+  //*h1{
+    //*text-align: center;
+    //*color: white;
+    //*border: 1px solid;
+ //*}
+//*}
+// sass --watch sass:css
+@import "var";
+@import "components";
+@import "mixins";
+nav {
+  background-color: $navColor;
+  @extend .navFormat;
+  @include round(88px);
+  li{
+    display: inline-block;
+    background-color: $liColor;
+    a{
+      color: #6325d9;
+      background-color: $aColor;
+      @extend .button;
+      text-decoration: aquamarine;
+      &:hover{
+        color: #6325d9;
+        background-color: $hoverColor;
+      }
+    }
+  }
+
+}
+
+
